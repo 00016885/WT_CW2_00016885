@@ -8,7 +8,6 @@ const home_controller = {
     update: async (req, res) =>{
         res.render('home/add');
     }
-  
 };
   
 module.exports = home_controller;
