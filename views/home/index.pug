@@ -12,6 +12,7 @@ body
             th(scope="col") ID
             th(scope="col") Event Name
             th(scope="col") Event DateTime
+            th(scope="col") Description
             th(scope="col") Venue
             th(scope="col") Contact Phone
             th(scope="col") Seat
@@ -29,6 +30,7 @@ script.
           <td>${t.id}</td>
           <td>${ticket.eventName}</td>
           <td>${ticket.eventDateTime}</td>
+          <td>${ticket.description}</td>
           <td>${ticket.venue}</td>
           <td>${ticket.contactPhone}</td>
           <td>${ticket.seat}</td>
