@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 // access global mock db file
-const tickets = require(global.mock_db)
+const tickets = require(global.cw_db)
 
 // write service method implementations
 const ticket_service = {
@@ -27,6 +27,19 @@ const ticket_service = {
         
         return new_ticket
     },
+    update(id, updateData){
+        const ticketIndex = tickets.findIndex(t => t.id == id)
+
+        if (ticketIndex === -1) {
+            return null
+        }
+
+        tickets[ticketIndex].ticket = { ...tickets[ticketIndex].ticket, ...updateData }
+
+        writeToFile(tickets)
+
+        return tickets[ticketIndex]
+    },
     delete(id) {
         const index = tickets.findIndex(u => u.id == id)
         tickets.splice(index, 1)    
@@ -38,7 +51,7 @@ const ticket_service = {
 let writeToFile = async (users) => {
     await 
         fs.writeFileSync(
-            global.mock_db,
+            global.cw_db,
             JSON.stringify(
                 users, null, 4
             ),
