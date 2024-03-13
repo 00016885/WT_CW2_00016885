@@ -1,1 +1,11 @@
-[]
+[{
+    "id": "asf13rdsf",
+    "ticket": {    
+        "eventName": "macarella tour",
+        "eventDateTime": "12/03/2024 19:00",
+        "venue": "hilton",
+        "contactPhone": "946758889",
+        "seat": "sector: B, row: 5, seat: 2"
+    }
+}
+]
