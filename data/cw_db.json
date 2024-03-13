@@ -1,19 +1,10 @@
 [
     {
-        "id": "asf13rdsf",
-        "ticket": {
-            "eventName": "macarella tour",
-            "eventDateTime": "12/03/2024 19:00",
-            "venue": "hilton",
-            "contactPhone": "946758889",
-            "seat": "sector: B, row: 5, seat: 2"
-        }
-    },
-    {
         "id": "s3sW",
         "ticket": {
             "eventName": "spring tour",
             "eventDateTime": "03/01/2024 11:45",
+            "description": "This event is related to the traditions that are done in the spring",
             "venue": "city mall",
             "contactPhone": "+998946444444",
             "seat": "sector: A, row: 1, seat: 1"
