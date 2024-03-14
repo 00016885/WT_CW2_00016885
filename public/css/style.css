@@ -1,0 +1,7 @@
+p {
+  text-align: center;
+  opacity: 50%;
+  text-transform: uppercase;
+  margin: 0;
+  animation: carusel 15s linear infinite;
+}

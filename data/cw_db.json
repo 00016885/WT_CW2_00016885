@@ -9,5 +9,16 @@
             "contactPhone": "+998946444444",
             "seat": "sector: A, row: 1, seat: 1"
         }
+    },
+    {
+        "id": "jy2p",
+        "ticket": {
+            "eventName": "Navruz holiday",
+            "eventDateTime": "21/03/2024 00:00",
+            "description": "Navruz (or Nowruz) is a spring festival or New Year. The term \"Navruz\" is composed of two Persian words \"nav\" (new) and \"ruz\" (day), that is the first starting day of the most momentous holiday of the Aryans",
+            "venue": "New Uzbekistan Park",
+            "contactPhone": "+998977777777",
+            "seat": "sector: C, row: 1, seat: 1"
+        }
     }
 ]
